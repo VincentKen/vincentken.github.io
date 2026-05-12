@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=CV.pdf">
-  <title>Redirecting...</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vincent Kenbeek - Documents</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      color: #222;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      width: 90%;
+      max-width: 420px;
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      color: #555;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 0.75rem 0;
+      padding: 0.9rem 1rem;
+      background: #24292f;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: background 0.2s ease;
+    }
+
+    .button:hover {
+      background: #3a3f46;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to CV... <a href="CV.pdf">Click here if it does not open automatically.</a></p>
+  <div class="container">
+    <h1>Vincent Kenbeek</h1>
+    <p>Application documents</p>
+
+    <a class="button" href="CV.pdf" target="_blank">View CV</a>
+    <a class="button" href="MSc_Diploma_and_Transcript_of_Records.pdf" target="_blank">View MSc Diploma & Transcript</a>
+    <a class="button" href="BSc_Transcript_of_Records.pdf" target="_blank">View BSc Transcript</a>
+  </div>
 </body>
 </html>
